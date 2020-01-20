@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	padding: 50px;
+	text-align: center;
+}
+#text div {
+	margin: 50px;
+}
+#text :nth-child(1) {
+	transition: all 0.5s linear;
+}
+#text :nth-child(2) {
+	transition: all 0.5s ease-in;
+}
+#text :nth-child(3) {
+	transition: all 0.5s ease-out;
+}
+#text :nth-child(4) {
+	transition: all 0.5s ease-in-out;
+}
+#text :nth-child(5) {
+	transition: all 0.5s cubic-bezier(0, 1, 1, 0);
+}
+#text div:hover {
+	transform: translateX(200px);
+}
