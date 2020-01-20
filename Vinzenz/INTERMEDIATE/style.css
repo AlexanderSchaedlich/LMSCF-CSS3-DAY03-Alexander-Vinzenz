@@ -1,0 +1,38 @@
+.form{
+	width: 600px;
+	height: 200px;
+	position: fixed; /* or absolute */
+	top: 15%;
+	left: 20%;
+	border: 2px solid green;
+}
+
+#two{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	border: 2px solid yellow;
+}
+
+#three{
+	width: 100%;
+	height: 50%;
+	margin-top: 100px;
+	position: absolute;
+	border: 2px solid blue;
+}
+
+::placeholder{
+	color: red;
+}
+
+.inp{
+ 	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  	transition: ease-out 2s;
+  	width: 150px;
+ }
+
+.inp:hover{
+	
+	width: 300px;
+}
